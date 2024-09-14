@@ -1,5 +1,7 @@
 # Ignore the virtual environment directory
 venv/
+previous/
+__pycache__/
 
 # Ignore JSON files
 *.json
@@ -12,3 +14,9 @@ venv/
 
 # Ignore TXT files
 *.txt
+
+# Ignore database file
+*.db 
+
+# Ignore log files
+*.log

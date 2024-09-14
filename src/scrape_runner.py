@@ -95,6 +95,6 @@ if __name__ == "__main__":
     try:
         with connect_db(db_path) as conn:
             combinations = fetch_station_combinations(conn)
-            run_requests_for_combinations(combinations[:5], search_date, conn, ssl_verify=False, log_responses=log_responses)
+            run_requests_for_combinations(combinations, search_date, conn, ssl_verify=False, log_responses=log_responses)
     except Exception as e:
         logging.critical(f"Fatal error occurred: {str(e)}", exc_info=True)
