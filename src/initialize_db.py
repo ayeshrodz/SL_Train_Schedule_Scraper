@@ -40,12 +40,12 @@ def initialize_db(db_path="train_schedule.db"):
         start_station_id INTEGER,
         end_station_id INTEGER,
         search_date TEXT,
-        status TEXT,
-        message TEXT,
         request_time INTEGER,
         response_time INTEGER,
         request_duration_seconds INTEGER,
-        data_count INTEGER
+        http_status INTEGER,
+        response_message TEXT, 
+        data_count INTEGER  
     )
     """)
 
