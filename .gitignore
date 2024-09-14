@@ -1,0 +1,14 @@
+# Ignore the virtual environment directory
+venv/
+
+# Ignore JSON files
+*.json
+
+# Ignore XML files
+*.xml
+
+# Ignore CSV files
+*.csv
+
+# Ignore TXT files
+*.txt
